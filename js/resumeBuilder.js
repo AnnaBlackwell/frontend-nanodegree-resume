@@ -147,3 +147,4 @@ projects.display = function() {
 
 // Map
 $("#mapDiv").append(googleMap);
+
