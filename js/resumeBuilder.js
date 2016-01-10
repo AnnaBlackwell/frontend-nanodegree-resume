@@ -1,4 +1,4 @@
-var bio {
+var bio = {
   "name" : "Anna Blackwell",
   "age" : 28,
   "role" : "Web Developer",
@@ -15,7 +15,7 @@ var bio {
   ]
 }
 
-var work {
+var work = {
   "jobs" : [
     {
       "job" : "Project Manager",
@@ -35,7 +35,7 @@ var work {
 }
 
 
-var education {
+var education = {
   "schools" : [
     {
       "name" : "University of Auckland",
@@ -56,7 +56,7 @@ var education {
   ]
 }
 
-var projects {
+var projects = {
   "projects" : [
   {
     "title" : "Anatomical Pathology MLT training pathway",
