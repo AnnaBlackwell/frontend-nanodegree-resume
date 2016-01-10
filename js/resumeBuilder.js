@@ -77,7 +77,7 @@ var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
 $("#header").prepend(formattedRole);
 $("#header").prepend(formattedName);
 
-if((bio.skills.length > 0) {
+if(bio.skills.length > 0) {
       $("#header").append(HTMLskillsStart);
       var formattedSkill = HTMLskills.replace("%data%", bio.skills[0]);
       $("#skills").append(formattedSkill);
@@ -90,7 +90,7 @@ if((bio.skills.length > 0) {
     }
 
 
-function displayWork() {}
+function displayWork() {
 for (job in work.jobs) {
   //create new div for work experience
   $("#workExperience").append(HTMLworkStart);
@@ -121,7 +121,7 @@ function inName(name) {
   name[1] = name[1].toUpperCase();
   name[0] = name[0].slice(0,1).toUpperCase() + name[0].slice(1).toLowerCase();
 
-  return name[0] +" "=name[1];
+  return name[0] +" " + name[1];
 }
 
 $('#main').append(internationalizeButton);
