@@ -11,7 +11,7 @@ var bio = {
 },
   "bioPic" : "../../AnnaBlackwell.github.io/ABProfile.jpg", 
   "welcomeMessage" : "Hi, and welcome to my resume page",
-  "skills" : ["Programming", "JavaScript", "Project Management"
+  "skills" : ["Programming", "JavaScript", "Project Management", "Stakeholder Management"
   ]
 }
 
